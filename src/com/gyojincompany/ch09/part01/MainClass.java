@@ -17,6 +17,13 @@ public class MainClass {
 		A.C.method2(); //static 메소드 접근
 		
 		a.methodLocal(); // 로컬클래스 객체 생성
+		
+		System.out.println("======================");
+		
+		Button btn = new Button();
+		
+		btn.setListner(new CallListener());
+		btn.touch();
 	}
 
 }
