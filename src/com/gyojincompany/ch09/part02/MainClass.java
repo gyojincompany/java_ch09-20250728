@@ -3,7 +3,7 @@ package com.gyojincompany.ch09.part02;
 
 
 public class MainClass {
-	public static void operate(Calculator cal) {
+	public static void operate(Calculator cal) { // 임시객체가 인수값으로 들어옴
 		System.out.print("연산결과 : " + cal.add(10, 20));
 	}
 	
@@ -47,8 +47,6 @@ public class MainClass {
 		System.out.println("==========================");
 		
 		// 메서드의 매개변수로 익명 객체 전달
-		
-		
 		
 		operate(new Calculator() {
 			
